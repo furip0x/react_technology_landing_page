@@ -189,6 +189,7 @@ body {
 .container {
   width: 100%;
   max-width: 1260px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -212,8 +213,8 @@ body {
   }
 }
 
-@media (max-width: 540px) {
+/* @media (max-width: 540px) {
   .container {
     padding: 0 15px;
   }
-}
+} */
