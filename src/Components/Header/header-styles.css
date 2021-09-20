@@ -1,0 +1,125 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.13rem;
+  transition: 0.3s;
+}
+
+.main-header.scrolled {
+  background-color: hsla(0, 0%, 0%, 90%);
+  background-blend-mode: color;
+  backdrop-filter: blur(3px);
+  padding-top: 0.63rem;
+  padding-bottom: 0.63rem;
+}
+
+.main-nav {
+  position: relative;
+}
+
+.main-nav > ul {
+  display: flex;
+}
+
+.main-nav-link {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c6c9d8;
+  padding: 1.25rem 0.94rem;
+  transition: cubic-bezier(0.65, 0.05, 0.36, 1) 0.3s;
+}
+
+.main-nav-link:hover {
+  color: #f9004d;
+}
+
+.hamburger-menu {
+  display: none;
+  /* width: 30px; */
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  /* display: block;
+  width: 100%;
+  border-top: 3px solid #fff;
+  border-radius: 5px; */
+  display: block;
+  width: 33px;
+  height: 3px;
+  margin-bottom: 4px;
+  position: relative;
+  background: #fff;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: cubic-bezier(0.77, 0.2, 0.05, 1) 0.5s;
+}
+
+.hamburger-menu.toggled > span {
+  transform: rotate(45deg) translate(-2px, -1px);
+}
+
+.hamburger-menu.toggled > span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu.toggled > span:nth-child(3) {
+  transform: rotate(-45deg) translate(3px, -8px);
+}
+
+/* MEDIA */
+@media (min-width: 768px) {
+  .main-nav > ul {
+    width: auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* .logo {
+    width: 66px;
+    overflow: hidden;
+  } */
+  .main-nav ul {
+    width: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 5px);
+    background-color: #fff;
+    box-shadow: 0 10px 30px 0 rgb(0, 0, 0, 10%);
+    padding: 0.5rem 0;
+    transform-origin: right top;
+    transition: cubic-bezier(0.77, 0.2, 0.05, 1) 0.5s;
+    overflow: hidden;
+  }
+  .main-nav ul.visible {
+    width: 135px;
+  }
+  .main-nav-link {
+    color: #333;
+    padding: 0.5rem 1rem;
+  }
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 540px) {
+  .main-header {
+    padding: 30px 15px;
+  }
+}
