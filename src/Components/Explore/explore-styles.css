@@ -73,6 +73,7 @@
   .explore {
     text-align: center;
     background-position: right center;
+    padding: 1.88rem 0;
   }
   .explore::after {
     content: '';

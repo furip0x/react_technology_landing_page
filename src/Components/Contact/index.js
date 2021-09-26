@@ -26,7 +26,8 @@ const Contact = () => {
     <section className='contact' id='contact'>
       <div className='container'>
         <div className='contact-wrapper'>
-          <h2 className='contact-title'>{data.contact.title}</h2>
+          <h2 className='section-title'>{data.contact.title}</h2>
+          <p className='section-desc'>{data.contact.subTitle}</p>
           <form className='contact-form' onSubmit={handleForm}>
             <input
               type='text'

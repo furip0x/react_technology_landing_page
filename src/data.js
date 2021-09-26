@@ -24,14 +24,15 @@ const nav = [
     url: '#about',
   },
   {
+    id: 2,
+    title: 'FAQ',
+    url: '#faq',
+  },
+  {
     id: 3,
     title: 'Contact',
     url: '#contact',
   },
-  // {
-  //   id: 4,
-  //   title: 'FAQ',
-  // },
 ]
 
 const banner = {
@@ -95,10 +96,51 @@ const explore = {
 
 const contact = {
   title: 'Contact Us',
+  subTitle: 'Need help? You can contact us using the form below.',
   namePlaceholder: 'Your name*',
   emailPlaceholder: 'Your e-mail*',
   messagePlaceholder: 'Your message*',
   sendBtnText: 'SEND',
 }
 
-export { nav, banner, images, about, features, explore, contact }
+const faqInfo = {
+  faqMainTitle: 'Frequently Asked Questions',
+  faqMainDesc: 'Do you have questions? Check the FAQ',
+}
+
+const faqItems = [
+  {
+    id: 1,
+    title: 'Lorem ipsum dolor sit?',
+    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit cessitatibus!',
+  },
+  {
+    id: 2,
+    title: 'Amet consectetur adipisicing elit?',
+    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit cessitatibus!',
+  },
+  {
+    id: 3,
+    title: 'Velit cessitatibus?',
+    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit cessitatibus!',
+  },
+]
+
+const signUp = {
+  title: 'Sign up for updates',
+  emailPlaceholder: 'Enter Your Email',
+  sendBtnText: 'SEND',
+}
+
+export {
+  nav,
+  banner,
+  images,
+  about,
+  features,
+  explore,
+  contact,
+  faqInfo,
+  faqItems,
+  signUp,
+}

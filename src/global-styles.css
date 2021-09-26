@@ -193,6 +193,28 @@ body {
   margin: 0 auto;
 }
 
+.section-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.2rem;
+  line-height: 1.1;
+  text-align: center;
+  margin: 0;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 3.13rem;
+  border-top: 5px solid #f9004d;
+  margin: 1rem auto 2rem;
+}
+
+.section-desc {
+  color: #919191;
+  text-align: center;
+  margin: 0 0 4rem;
+}
+
 /* MEDIA */
 
 @media (max-width: 1260px) {
@@ -213,8 +235,11 @@ body {
   }
 }
 
-/* @media (max-width: 540px) {
-  .container {
-    padding: 0 15px;
+@media (max-width: 540px) {
+  .section-title {
+    font-size: 2rem;
   }
-} */
+  .section-title::after {
+    margin-bottom: 2rem;
+  }
+}
