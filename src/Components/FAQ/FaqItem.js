@@ -4,7 +4,7 @@ const FaqItem = ({ id, title, desc }) => {
   const [showInfo, setShowInfo] = useState(false)
 
   return (
-    <div key={id} className={`faq-item ${showInfo && 'toggled'}`}>
+    <div className={`faq-item ${showInfo && 'toggled'}`}>
       <div className='faq-header'>
         <div className='faq-title'>{title}</div>
         <button
