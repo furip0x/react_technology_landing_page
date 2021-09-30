@@ -1,7 +1,7 @@
 import React from 'react'
-import FaqItem from './FaqItem'
 import { useGlobalContext } from '../../context'
 import './faq-styles.css'
+import FaqItem from './FaqItem'
 
 const Faq = () => {
   const { data } = useGlobalContext()
@@ -13,7 +13,7 @@ const Faq = () => {
         <p className='section-desc'>{data.faqInfo.faqMainDesc}</p>
         <div className='faq-list'>
           {data.faqItems.map((item) => {
-            return <FaqItem {...item} />
+            return <FaqItem key={item.id} {...item} />
           })}
         </div>
       </div>

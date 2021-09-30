@@ -1,0 +1,135 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  display: none;
+  background-color: hsla(0, 0%, 0%, 0.9);
+  padding: 30px 65px 30px 30px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal-visible {
+  display: flex;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+  width: 100%;
+  max-width: 500px;
+  min-height: 300px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px 0 5px 5px;
+  padding: 35px;
+  margin: auto;
+}
+
+.modal-close-btn {
+  position: absolute;
+  right: -35px;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  background-color: #f9004d;
+  padding: 0;
+}
+
+.modal-close-btn:hover {
+  background-color: hsl(341, 98%, 60%);
+}
+
+.modal-title {
+  font-size: 30px;
+  margin: 10px 0 0;
+}
+
+#successAnimationCircle {
+  stroke-dasharray: 151px 151px;
+  stroke: #22f900;
+}
+
+#successAnimationCheck {
+  stroke-dasharray: 36px 36px;
+  stroke: #fff;
+}
+
+#successAnimationResult {
+  fill: #22f900;
+  opacity: 0;
+}
+
+#successAnimation.animated {
+  animation: 1s ease-out 0s 1 both scaleAnimation;
+}
+
+#successAnimation.animated #successAnimationCircle {
+  animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 0s 1 both drawCircle,
+    0.3s linear 0.9s 1 both fadeOut;
+}
+
+#successAnimation.animated #successAnimationCheck {
+  animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 0s 1 both drawCheck,
+    0.3s linear 0.9s 1 both fadeOut;
+}
+
+#successAnimation.animated #successAnimationResult {
+  animation: 0.3s linear 0.9s both fadeIn;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes drawCircle {
+  0% {
+    stroke-dashoffset: 151px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes drawCheck {
+  0% {
+    stroke-dashoffset: 36px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

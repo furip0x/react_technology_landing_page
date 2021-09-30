@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import './contact-styles.css'
 import { useGlobalContext } from '../../context'
+import './contact-styles.css'
 
 const Contact = () => {
-  const { data } = useGlobalContext()
+  const { data, setIsModalOpen, showModal } = useGlobalContext()
 
   const [inputs, setInputs] = useState({
     name: '',
@@ -20,6 +20,8 @@ const Contact = () => {
 
   const handleForm = (e) => {
     e.preventDefault()
+    setIsModalOpen(true)
+    showModal('Message sent!', 'Your message has been sent successfully!. We will respond to you within 24 hours.')
   }
 
   return (

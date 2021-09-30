@@ -1,11 +1,11 @@
-import LogoImg from './Assets/image/logo.png'
-import LogoIcon from './Assets/image/logo-icon.png'
-import ImmersiveIcon from './Assets/image/immersive.svg'
 import DegIcon from './Assets/image/360-degree.svg'
-import ComfortIcon from './Assets/image/vr-glasses.svg'
-import EffectOfPresenceIcon from './Assets/image/effect-of-presence.svg'
 import EasyOperationSystemIcon from './Assets/image/easy-opration-system.svg'
+import EffectOfPresenceIcon from './Assets/image/effect-of-presence.svg'
 import FeatureImg from './Assets/image/features-bg.jpg'
+import ImmersiveIcon from './Assets/image/immersive.svg'
+import LogoIcon from './Assets/image/logo-icon.png'
+import LogoImg from './Assets/image/logo.png'
+import ComfortIcon from './Assets/image/vr-glasses.svg'
 
 const images = {
   logo: LogoImg,
@@ -24,12 +24,12 @@ const nav = [
     url: '#about',
   },
   {
-    id: 2,
+    id: 3,
     title: 'FAQ',
     url: '#faq',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Contact',
     url: '#contact',
   },
@@ -111,18 +111,28 @@ const faqInfo = {
 const faqItems = [
   {
     id: 1,
-    title: 'Lorem ipsum dolor sit?',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit cessitatibus!',
+    title: 'What is Virtual Reality (VR)?',
+    desc: 'Clients see and interact with the space because they utilize a headset. In other words, VR creates a virtual environment with full immersion.',
   },
   {
     id: 2,
-    title: 'Amet consectetur adipisicing elit?',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit cessitatibus!',
+    title: 'Can I wear my glasses inside of the headset?',
+    desc: 'Yes, the VR headset is designed to accommodate users that wear glasses. You can telescope the lens closer to, and farther away from, your face to get the optimal fit.',
   },
   {
     id: 3,
-    title: 'Velit cessitatibus?',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit cessitatibus!',
+    title: 'What is FOV (Field of View)?',
+    desc: 'FOV is short for field of view. In the context of our eyes, our field of view is everything you can see at any given moment. In the context of VR headsets, the field of view refers to everything you can see in the virtual world at any given moment while using the headset.',
+  },
+  {
+    id: 4,
+    title: 'What is IPD?',
+    desc: 'IPD is an abbreviation that stands for “interpupillary distance” – aka the distance between the center of your two pupils.',
+  },
+  {
+    id: 5,
+    title: 'How can I pay?',
+    desc: 'You can pay by Credit card.',
   },
 ]
 
@@ -144,3 +154,4 @@ export {
   faqItems,
   signUp,
 }
+

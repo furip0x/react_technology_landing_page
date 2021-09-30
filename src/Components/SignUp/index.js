@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
-import './signup-styles.css'
 import { useGlobalContext } from '../../context'
+import './signup-styles.css'
 
 const SignUp = () => {
-  const { data } = useGlobalContext()
+  const { data, showModal } = useGlobalContext()
   const [input, setInput] = useState('')
 
   const handleForm = (e) => {
     e.preventDefault()
+    showModal("Thanks for signing up.", "We'll keep you posted on the latest device tips, product updates, news and special offers.")
   }
 
   return (
