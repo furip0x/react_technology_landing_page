@@ -1,9 +1,10 @@
 import React from 'react'
-import Banner from './Banner'
 import About from './About'
-import Explore from './Explore'
+import Banner from './Banner'
 import Contact from './Contact'
+import Explore from './Explore'
 import Faq from './FAQ'
+import Gallery from './Gallery'
 import SignUp from './SignUp'
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Banner />
       <About />
       <Explore />
+      <Gallery />
       <Faq />
       <Contact />
       <SignUp />
