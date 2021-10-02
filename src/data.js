@@ -25,11 +25,16 @@ const nav = [
   },
   {
     id: 3,
+    title: 'Gallery',
+    url: '#gallery',
+  },
+  {
+    id: 4,
     title: 'FAQ',
     url: '#faq',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Contact',
     url: '#contact',
   },
@@ -103,9 +108,62 @@ const contact = {
   sendBtnText: 'SEND',
 }
 
-const faqInfo = {
-  faqMainTitle: 'Frequently Asked Questions',
-  faqMainDesc: 'Do you have questions? Check the FAQ',
+const gallery = {
+  title: 'Photo Gallery',
+  desc: 'Explore our gallery',
+}
+
+const galleryItems = [
+  {
+    id: 1,
+    category: 'Education',
+    img: 'https://source.unsplash.com/DeyfdybVQhA/800x800',
+  },
+  {
+    id: 2,
+    category: 'Education',
+    img: 'https://source.unsplash.com/IMUwe-p1yqs/800x800',
+  },
+  {
+    id: 3,
+    category: 'Education',
+    img: 'https://source.unsplash.com/3eAByt3-eOw/800x800',
+  },
+  {
+    id: 4,
+    category: 'Games',
+    img: 'https://source.unsplash.com/NN9HQkDgguc/800x800',
+  },
+  {
+    id: 5,
+    category: 'Games',
+    img: 'https://source.unsplash.com/GLgjpN4MWaw/800x800',
+  },
+  {
+    id: 6,
+    category: 'Games',
+    img: 'https://source.unsplash.com/hIz2lvAo6Po/800x800',
+  },
+  {
+    id: 7,
+    category: 'Entertainment',
+    img: 'https://source.unsplash.com/l862hX_FET8/800x800',
+  },
+  {
+    id: 8,
+    category: 'Entertainment',
+    img: 'https://source.unsplash.com/sTdZIYiWwuA/800x800',
+  },
+  {
+    id: 9,
+    category: 'Entertainment',
+    img: 'https://source.unsplash.com/AplbmIMHwAE/800x800',
+  },
+]
+
+const faq = {
+  title: 'Frequently Asked Questions',
+  desc: 'Do you have questions? Check the FAQ',
 }
 
 const faqItems = [
@@ -149,9 +207,10 @@ export {
   about,
   features,
   explore,
+  gallery,
+  galleryItems,
   contact,
-  faqInfo,
+  faq,
   faqItems,
   signUp,
 }
-
