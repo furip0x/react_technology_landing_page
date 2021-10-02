@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react_technology_landing_page/static/css/main.dc2c58d3.chunk.css",
-    "main.js": "/react_technology_landing_page/static/js/main.f026d6a1.chunk.js",
-    "main.js.map": "/react_technology_landing_page/static/js/main.f026d6a1.chunk.js.map",
+    "main.css": "/react_technology_landing_page/static/css/main.040e4c50.chunk.css",
+    "main.js": "/react_technology_landing_page/static/js/main.cda4a884.chunk.js",
+    "main.js.map": "/react_technology_landing_page/static/js/main.cda4a884.chunk.js.map",
     "runtime-main.js": "/react_technology_landing_page/static/js/runtime-main.039deac8.js",
     "runtime-main.js.map": "/react_technology_landing_page/static/js/runtime-main.039deac8.js.map",
-    "static/js/2.89c817ed.chunk.js": "/react_technology_landing_page/static/js/2.89c817ed.chunk.js",
-    "static/js/2.89c817ed.chunk.js.map": "/react_technology_landing_page/static/js/2.89c817ed.chunk.js.map",
+    "static/js/2.287d9511.chunk.js": "/react_technology_landing_page/static/js/2.287d9511.chunk.js",
+    "static/js/2.287d9511.chunk.js.map": "/react_technology_landing_page/static/js/2.287d9511.chunk.js.map",
     "index.html": "/react_technology_landing_page/index.html",
-    "static/css/main.dc2c58d3.chunk.css.map": "/react_technology_landing_page/static/css/main.dc2c58d3.chunk.css.map",
-    "static/js/2.89c817ed.chunk.js.LICENSE.txt": "/react_technology_landing_page/static/js/2.89c817ed.chunk.js.LICENSE.txt",
+    "static/css/main.040e4c50.chunk.css.map": "/react_technology_landing_page/static/css/main.040e4c50.chunk.css.map",
+    "static/js/2.287d9511.chunk.js.LICENSE.txt": "/react_technology_landing_page/static/js/2.287d9511.chunk.js.LICENSE.txt",
     "static/media/360-degree.b4c64cb0.svg": "/react_technology_landing_page/static/media/360-degree.b4c64cb0.svg",
     "static/media/about-img.6e905446.jpg": "/react_technology_landing_page/static/media/about-img.6e905446.jpg",
     "static/media/easy-opration-system.7f5cb3fb.svg": "/react_technology_landing_page/static/media/easy-opration-system.7f5cb3fb.svg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.039deac8.js",
-    "static/js/2.89c817ed.chunk.js",
-    "static/css/main.dc2c58d3.chunk.css",
-    "static/js/main.f026d6a1.chunk.js"
+    "static/js/2.287d9511.chunk.js",
+    "static/css/main.040e4c50.chunk.css",
+    "static/js/main.cda4a884.chunk.js"
   ]
 }
