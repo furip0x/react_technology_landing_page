@@ -9,8 +9,8 @@ const Faq = () => {
   return (
     <section className='faq' id='faq'>
       <div className='container'>
-        <h3 className='section-title'>{data.faqInfo.faqMainTitle}</h3>
-        <p className='section-desc'>{data.faqInfo.faqMainDesc}</p>
+        <h3 className='section-title'>{data.faq.title}</h3>
+        <p className='section-desc'>{data.faq.desc}</p>
         <div className='faq-list'>
           {data.faqItems.map((item) => {
             return <FaqItem key={item.id} {...item} />
