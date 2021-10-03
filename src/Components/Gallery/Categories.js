@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Categories = ({ categories, filterItems, activeCategoryBtn }) => {
-  console.log('ACTIVE CATEGORY: ', activeCategoryBtn)
   return (
     <div className='gallery-categories'>
       {categories.map((category, index) => {
@@ -9,7 +8,7 @@ const Categories = ({ categories, filterItems, activeCategoryBtn }) => {
           <button
             key={index}
             type='button'
-            className={category === activeCategoryBtn && 'active'}
+            className={category === activeCategoryBtn ? 'active' : ''}
             onClick={() => filterItems(category)}
           >
             {category}

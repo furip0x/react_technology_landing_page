@@ -1,10 +1,11 @@
 import React from 'react'
-import About from './About'
 import Banner from './Banner'
-import Contact from './Contact'
+import About from './About'
 import Explore from './Explore'
-import Faq from './FAQ'
 import Gallery from './Gallery'
+import Testimonial from './Testimonial'
+import Faq from './FAQ'
+import Contact from './Contact'
 import SignUp from './SignUp'
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <About />
       <Explore />
       <Gallery />
+      <Testimonial />
       <Faq />
       <Contact />
       <SignUp />
