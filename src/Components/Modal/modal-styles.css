@@ -4,7 +4,7 @@
   z-index: 5;
   display: none;
   background-color: hsla(0, 0%, 0%, 0.9);
-  padding: 30px 65px 30px 30px;
+  padding: 1.88rem 3.75rem 1.88rem 1.88rem;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -21,23 +21,23 @@
   justify-content: center;
   /* gap: 20px; */
   width: 100%;
-  max-width: 500px;
-  min-height: 300px;
+  max-width: 31.25rem;
+  min-height: 18.75rem;
   text-align: center;
   background-color: #fff;
   border-radius: 5px 0 5px 5px;
-  padding: 35px;
+  padding: 2.19rem;
   margin: auto;
 }
 
 .modal-close-btn {
   position: absolute;
-  right: -35px;
+  right: -2.81rem;
   top: 0;
-  width: 35px;
-  height: 35px;
+  width: 2.81rem;
+  height: 2.81rem;
   color: #fff;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 500;
   border: none;
   border-radius: 0 3px 3px 0;
@@ -50,8 +50,8 @@
 }
 
 .modal-title {
-  font-size: 30px;
-  margin: 10px 0 0;
+  font-size: 1.88rem;
+  margin: 0.63rem 0 0;
 }
 
 #successAnimationCircle {
@@ -131,5 +131,13 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+/* MEDIA */
+
+@media (max-width: 540px) {
+  .modal-title {
+    font-size: 1.5rem;
   }
 }
