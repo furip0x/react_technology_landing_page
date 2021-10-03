@@ -7,6 +7,7 @@
 
 .gallery-categories {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 0.94rem;
   margin-bottom: 3.13rem;
@@ -32,7 +33,7 @@
 
 .gallery-images {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.88rem;
 }
 
