@@ -30,11 +30,16 @@ const nav = [
   },
   {
     id: 4,
+    title: 'Testimonials',
+    url: '#testimonials',
+  },
+  {
+    id: 5,
     title: 'FAQ',
     url: '#faq',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Contact',
     url: '#contact',
   },
@@ -161,6 +166,49 @@ const galleryItems = [
   },
 ]
 
+const testimonial = {
+  title: 'Testimonials',
+  desc: 'What our customers say',
+}
+
+const testimonialItems = [
+  {
+    id: 1,
+    img: 'https://source.unsplash.com/rDEOVtE7vOs/100x100',
+    name: 'Mary Doe',
+    title: 'Hotel Manager',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, architecto. Architecto lorem ipsum  amet consectetur dolor sit elit adipisicing ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, architecto.',
+  },
+  {
+    id: 2,
+    img: 'https://source.unsplash.com/d1UPkiFd04A/100x100',
+    name: 'John Doe',
+    title: 'Game Developer',
+    desc: 'Architecto lorem ipsum  amet consectetur dolor sit elit adipisicing ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, architecto. Architecto lorem ipsum  amet consectetur dolor sit elit adipisicing ipsam.',
+  },
+  {
+    id: 3,
+    img: 'https://source.unsplash.com/uJ8LNVCBjFQ/100x100',
+    name: 'Mary Doe',
+    title: 'Hotel Manager',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, architecto. Architecto lorem ipsum  amet consectetur dolor sit elit adipisicing ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, architecto.',
+  },
+  {
+    id: 4,
+    img: 'https://source.unsplash.com/_7LbC5J-jw4/100x100',
+    name: 'John Doe',
+    title: 'Game Developer',
+    desc: 'Architecto lorem ipsum  amet consectetur dolor sit elit adipisicing ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, architecto. Architecto lorem ipsum  amet consectetur dolor sit elit adipisicing ipsam.',
+  },
+  {
+    id: 5,
+    img: 'https://source.unsplash.com/m663zRzRe40/100x100',
+    name: 'Mary Doe',
+    title: 'Hotel Manager',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, architecto. Architecto lorem ipsum  amet consectetur dolor sit elit adipisicing ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, architecto.',
+  },
+]
+
 const faq = {
   title: 'Frequently Asked Questions',
   desc: 'Do you have questions? Check the FAQ',
@@ -209,6 +257,8 @@ export {
   explore,
   gallery,
   galleryItems,
+  testimonial,
+  testimonialItems,
   contact,
   faq,
   faqItems,
