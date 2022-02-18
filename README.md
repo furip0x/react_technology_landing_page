@@ -6,6 +6,7 @@
 - HTML
 - JAVASCRIPT
 - ReactJS (useState, useContext, useRef)
+- TypeScript
 
 ## About Logo
 
